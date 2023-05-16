@@ -1,0 +1,3 @@
+-record(monitor, {cords, names, stations, id}).
+-record(station, {name, cord, measurements}).
+-record(measurement, {pm10, pm2_5, temperature, pressure, wind_speed, humidity, any=[]}).
